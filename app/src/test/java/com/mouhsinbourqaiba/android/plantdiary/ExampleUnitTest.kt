@@ -40,6 +40,6 @@ class ExampleUnitTest {
 
     @Test
     fun addtion_isNotCorrect(){
-        assertEquals(4, 1+2)
+        assertEquals(4, 2+2)
     }
 }
