@@ -1,5 +1,6 @@
 package com.mouhsinbourqaiba.android.plantdiary
 
+import com.mouhsinbourqaiba.android.plantdiary.dto.Plant
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -31,6 +32,7 @@ class ExampleUnitTest {
         assertEquals(8, 4 + 4)
     }
 
+    @Test
     fun confrimEasternRedbud_outputsEasternRedbud(){
         var plant: Plant = Plant("Cercis", "canadesis", "Eastern Redbud")
         assertEquals("Eastern Redbud",plant.toString())
