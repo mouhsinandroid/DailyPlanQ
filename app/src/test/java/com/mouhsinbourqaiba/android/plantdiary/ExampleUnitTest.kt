@@ -33,8 +33,13 @@ class ExampleUnitTest {
     }
 
     @Test
-    fun confrimEasternRedbud_outputsEasternRedbud(){
+    fun confrimEasternRedbud_outputsEasternRedbud() {
         var plant: Plant = Plant("Cercis", "canadesis", "Eastern Redbud")
-        assertEquals("Eastern Redbud",plant.toString())
+        assertEquals("Eastern Redbud", plant.toString())
+    }
+
+    @Test
+    fun addtion_isNotCorrect(){
+        assertEquals(4, 1+2)
     }
 }
